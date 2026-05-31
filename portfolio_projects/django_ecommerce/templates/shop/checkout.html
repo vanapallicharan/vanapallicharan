@@ -1,0 +1,12 @@
+{% extends "shop/base.html" %}
+{% block content %}
+<h2>Checkout</h2>
+<p>Total: Rs. {{ total }}</p>
+<form method="post">
+  {% csrf_token %}
+  <label>Name<input name="customer_name" required></label>
+  <label>Email<input name="email" type="email" required></label>
+  <label>Address<textarea name="address" required></textarea></label>
+  <button type="submit">Place Order</button>
+</form>
+{% endblock %}

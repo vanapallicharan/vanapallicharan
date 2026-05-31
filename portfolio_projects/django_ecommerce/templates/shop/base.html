@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Shop</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; color: #1f2933; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+    a { color: #0f766e; text-decoration: none; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .card { border: 1px solid #d5dce3; border-radius: 8px; padding: 1rem; }
+    button { background: #0f766e; border: 0; color: white; padding: .65rem 1rem; border-radius: 6px; cursor: pointer; }
+    input, textarea { display: block; width: 100%; max-width: 440px; padding: .6rem; margin: .4rem 0 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio Shop</h1>
+    <nav><a href="/">Products</a> | <a href="/cart/">Cart</a></nav>
+  </header>
+  {% block content %}{% endblock %}
+</body>
+</html>
