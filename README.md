@@ -7,7 +7,8 @@ I build practical prototypes across embedded systems, IoT, web applications, and
 | Project | Type | Stack / Tools | Status |
 | --- | --- | --- | --- |
 | [Morpho AI](portfolio_projects/morpho_ai/README.md) | Personal AI assistant R&D | Python, Flask, local LLM concepts, memory systems | Active prototype |
-| [Django E-Commerce Website](portfolio_projects/django_ecommerce/README.md) | Academic web project | Django, SQLite, HTML, CSS, JavaScript | Portfolio demo |
+| [Django SpaceX E-Commerce Website](portfolio_projects/django_spacex_original/README.md) | Recovered academic web project | Django, SQLite, HTML, CSS, JavaScript | Original project source recovered |
+| [Django E-Commerce Website](portfolio_projects/django_ecommerce/README.md) | Academic web project | Django, SQLite, HTML, CSS, JavaScript | Clean portfolio demo |
 | [Medi Smart Medical Vending System](portfolio_projects/medi_smart_vending/README.md) | Academic hardware prototype | Raspberry Pi, Arduino, Tkinter, motor drivers | Reconstructed demo from completed prototype |
 | [ICU Patient Monitoring System](portfolio_projects/icu_patient_monitoring/README.md) | Company innovation proposal | IoT dashboard concepts, alerting, Python simulation | Proposal + demo |
 | [Smart Magnetic Door Lock](portfolio_projects/smart_magnetic_door_lock/README.md) | IoT access-control prototype | ESP32, RFID, relay, ThingSpeak concepts | Reconstructed demo |

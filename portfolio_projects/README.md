@@ -5,7 +5,8 @@ This folder collects source code, demo code, and case-study notes for projects l
 ## Project Index
 
 - `morpho_ai` - local AI assistant prototype and current R&D direction.
-- `django_ecommerce` - Django e-commerce portfolio implementation.
+- `django_spacex_original` - recovered Django e-commerce project from the `djangospacex` virtual environment archive.
+- `django_ecommerce` - clean Django e-commerce portfolio implementation.
 - `medi_smart_vending` - Raspberry Pi + Arduino medical vending prototype reference implementation.
 - `icu_patient_monitoring` - ICU monitoring dashboard simulation and proposal notes.
 - `smart_magnetic_door_lock` - ESP32 RFID smart lock control sketch.
